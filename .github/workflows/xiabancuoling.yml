@@ -1,0 +1,25 @@
+name: xiabancuoling
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiabancuoling
+        env:
+          lje60: ${{ secrets.lje60 }}
+        run: |
+          echo $lje60 | jq -r .tleih804 | /bin/bash
+          echo $lexx6953 | jq -r .x869 | /bin/bash
+          echo $hk361 | jq -r .w0 | /bin/bash
+          echo $jpjqy1011 | jq -r .bpk6 | /bin/bash
+          echo $sq67642 | jq -r .qj885 | /bin/bash
+          echo $guc845 | jq -r .rn45 | /bin/bash
+          echo $tjtx05071 | jq -r .raaag7081 | /bin/bash
+          echo $ct56828 | jq -r .nddx12983 | /bin/bash
+
